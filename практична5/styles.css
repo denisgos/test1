@@ -3,39 +3,51 @@ body {
     font-family: Arial, sans-serif;
 }
 
-header, main, footer {
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 20px;
     box-sizing: border-box;
 }
 
-header {
-    background-color: #333;
-    color: white;
-    text-align: center;
-}
-
-main {
+.row {
     display: flex;
     flex-wrap: wrap;
+    margin: 0 -10px;
 }
 
-.content {
-    width: 100%;
+.col {
+    box-sizing: border-box;
+    padding: 0 10px;
 }
 
+.content-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.col-12 {
+    flex: 1 0 100%; 
+}
 
 @media (min-width: 768px) {
-    main {
-        justify-content: space-between;
+    .col-6 {
+        flex: 1 0 50%; 
     }
-    .content {
-        width: 60%;
+    .col-4 {
+        flex: 1 0 33.3333%; 
     }
 }
 
 
 @media (min-width: 992px) {
-    .content {
-        width: 70%;
+    .col-6 {
+        flex: 1 0 50%; 
+    }
+    .col-4 {
+        flex: 1 0 33.3333%; 
     }
 }
+
