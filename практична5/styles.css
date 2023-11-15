@@ -24,21 +24,21 @@ h1 {
     font-size: 24px;
   }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
     .col-lg-3 {
         width: 25%;
     }
 }
 
-
-@media (min-width: 992px) and (max-width: 1199px) {
+/* Medium devices */
+@media (min-width: 768px) and (max-width: 991px) {
     .col-lg-3 {
         width: 50%;
     }
 }
 
-
-@media (max-width: 991px) {
+/* Small devices */
+@media (max-width: 767px) {
     .col-lg-3 {
         width: 100%;
     }
