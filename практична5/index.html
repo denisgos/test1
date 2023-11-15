@@ -1,29 +1,25 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Адаптивна сторінка</title>
+    <title>Responsive Layout</title>
 </head>
 <body>
-    <header>
-        <h1>Заголовок</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#">Пункт 1</a></li>
-            <li><a href="#">Пункт 2</a></li>
-            <li><a href="#">Пункт 3</a></li>
-        </ul>
-    </nav>
-    <section>
-        <article>
-            <h2>Заголовок статті</h2>
-            <p>Текст статті...</p>
-        </article>
-    </section>
-    <footer>
-        <p>&copy; 2023 Ваша компанія</p>
-    </footer>
+    <div class="container">
+        <div class="row">
+            <div class="col col-12">Content for all screen sizes</div>
+        </div>
+        <div class="row">
+            <div class="col col-6">Half-width column</div>
+            <div class="col col-6">Half-width column</div>
+        </div>
+        <div class="row">
+            <div class="col col-4">One-third width column</div>
+            <div class="col col-4">One-third width column</div>
+            <div class="col col-4">One-third width column</div>
+        </div>
+    </div>
 </body>
 </html>
