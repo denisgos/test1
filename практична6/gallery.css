@@ -30,3 +30,44 @@ h1 {
     display: block;
     margin: 0 auto;
   }
+
+body {
+  text-align: center; 
+}
+
+
+img {
+  display: block; 
+  margin: 0 auto; 
+  max-width: 100%; 
+}
+
+
+@media (min-width: 1024px) {
+  img {
+    width: 30%; /* Установка ширини для desktop */
+  }
+}
+
+/* Tablet view */
+@media (max-width: 1023px) {
+  h3 {
+    clear: both; /* Розділення заголовків на два рядки */
+  }
+
+  img {
+    width: 45%; /* Установка ширини для tablet */
+  }
+
+  .title,
+  .title1 {
+    float: left; /* Перші два заголовки розташовуються поруч */
+  }
+}
+
+/* Mobile view */
+@media (max-width: 480px) {
+  img {
+    width: 80%; /* Установка ширини для mobile */
+  }
+}
