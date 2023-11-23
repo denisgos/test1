@@ -1,26 +1,101 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
+    <title>Персональна сторінка Гошовського Дениса Миколайовича</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Define your grid container */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Define your grid columns */
+        .col-12 {
+            flex: 0 0 100%;
+            max-width: 100%;
+            box-sizing: border-box;
+            padding: 10px;
+        }
+
+        /* Define your media queries for responsiveness */
+        @media (min-width: 768px) {
+            .col-sm-6 {
+                flex: 0 0 calc(50% - 20px);
+                max-width: calc(50% - 20px);
+            }
+        }
+
+        @media (min-width: 992px) {
+            .col-md-4 {
+                flex: 0 0 calc(33.33% - 20px);
+                max-width: calc(33.33% - 20px);
+            }
+        }
+
+        /* Define link styles */
+        a {
+            text-decoration: none;
+            display: block;
+            padding: 10px;
+            margin-bottom: 10px;
+            color: #fff;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        /* Define different link colors */
+        .pink-link {
+            background-color: pink;
+        }
+
+        .green-link {
+            background-color: green;
+        }
+
+        .blue-link {
+            background-color: blue;
+        }
+
+        .red-link {
+            background-color: red;
+        }
+
+        .yellow-link {
+            background-color: yellow;
+        }
+    </style>
 </head>
 <body>
-    <h1>Персональна сторінка Гошовський Денис Миколайович</h1>
-
-<p>Мене  звати Денис мені 17 років,  Спорт завжди був важливою частиною мого життя, починаючи з дитинства. Я завжди цінував активний спосіб життя та підтримував здоровий спосіб харчування, щоб бути у найкращій фізичній формі. я навчаюся в Прикарпатському національному університеті ім. Василя стефаника. Також відвідую секцію з греко-римської боротьби, де виконав звання кандидата майстра спорту. В даний момент я відвідую секцію боксу, де активно навчаюся чогось нового. Однак я завжди був розсудливим і розумів, що важливо мати резервний план. Тому я також цікавився IT сферою та інвестиціями. Вивчення цих галузей надихнуло мене на розуміння важливості фінансової незалежності та ефективного управління грошима.   </p>
-  
-<p>
-    <a href="https://denisgos.github.io/test1/практична6" class="pink-link">Назад на головну</a>
-</p>
-<p>
-    <a href="https://denisgos.github.io/test1/практична6/nowadays.html" class="green-link">Сьогодення</a>
-</p
-<p>
-    <a href="https://denisgos.github.io/test1/практична6/friends.html" class="blue-link">Друзі</a>
-</p>
-<p>
-<a href="https://denisgos.github.io/test1/практична6/gallery.html" class="red-link">Галерея</a>
-</p>
- <p>
-    <a href="https://denisgos.github.io/test1/практична6/biography.html" class="yellov-link">Автобіографія</a>
-    </p>
+    <div class="container">
+        <div class="col-12">
+            <h1>Персональна сторінка Гошовського Дениса Миколайовича</h1>
+            <p>Ваш текст про себе тут...</p>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4">
+            <a href="https://denisgos.github.io/test1/практична6" class="pink-link">Назад на головну</a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4">
+            <a href="https://denisgos.github.io/test1/практична6/nowadays.html" class="green-link">Сьогодення</a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4">
+            <a href="https://denisgos.github.io/test1/практична6/friends.html" class="blue-link">Друзі</a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4">
+            <a href="https://denisgos.github.io/test1/практична6/gallery.html" class="red-link">Галерея</a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4">
+            <a href="https://denisgos.github.io/test1/практична6/biography.html" class="yellow-link">Автобіографія</a>
+        </div>
+    </div>
 </body>
 </html>
