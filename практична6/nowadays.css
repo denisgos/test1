@@ -18,3 +18,30 @@ text-align: center;
 a.back2 {
 font-style: italic;
 }
+
+
+@media (min-width: 1024px) {
+    ul {
+      display: flex;
+      list-style: none;
+      padding: 0; 
+    }
+
+    ul:not(:last-child) {
+      margin-right: 20px; 
+    }
+  }
+  
+ 
+  @media (max-width: 1023px) {
+    /* Списки відображаються один під одним */
+    ul {
+      list-style: none; /* Відключення маркерів списку */
+      padding: 0; /* Зняття внутрішнього відступу у списків */
+    }
+    /* Опціонально: відступ між списками на tablet та mobile */
+    ul:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+  
