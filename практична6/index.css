@@ -4,54 +4,73 @@
             padding: 0;
         }
 
-        /* Define your grid columns for different screen sizes */
-        .container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between; /* Рівномірно розміщує елементи */
-            padding: 20px; /* Відступи для контейнера */
-        }
-
-        /* Define your grid items */
-        .col {
-            flex: 0 0 calc(100% - 20px); /* Ширина на повну ширину контейнера з відступами */
-            margin-bottom: 20px; /* Відступи між блоками */
-            box-sizing: border-box;
-            padding: 10px;
-        }
-
-        /* Define styles for different link classes */
-        .green-link { color: green; }
-        .red-link { color: navy; }
-        .pink-link { color: darkmagenta; }
-        .blue-link { color: blue; }
-        .yellow-link { color: crimson; }
-
-        a:hover, a:active {
-            color: paleturquoise;
-            background-color: transparent;
-            text-decoration: underline;
-        }
-
         h1 {
             text-align: center;
             font-size: 24px;
-            margin-bottom: 20px; /* Відступ після заголовка */
         }
 
         p {
-            font-size: 120%; /* Збільшуємо розмір тексту */
-            margin-bottom: 20px; /* Відступ після абзацу */
+            font-size: 120%;
         }
 
-        @media (min-width: 768px) {
-            .col {
-                flex: 0 0 calc(50% - 20px); /* Ширина на половину екрану з відступами */
-            }
+        .link-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .link-container a {
+            flex-basis: calc(50% - 10px);
+            margin-bottom: 10px;
+            text-align: center;
+            text-decoration: none;
+            padding: 5px;
+            border: 1px solid transparent;
+            box-sizing: border-box;
         }
 
         @media (min-width: 992px) {
-            .col {
-                flex: 0 0 calc(33.33% - 20px); /* Ширина на третину екрану з відступами */
+            .link-container a {
+                flex-basis: calc(33.33% - 10px);
             }
+        }
+
+        @media (min-width: 768px) and (max-width: 991px) {
+            .link-container a {
+                flex-basis: calc(50% - 10px);
+            }
+        }
+
+        @media (max-width: 767px) {
+            .link-container a {
+                flex-basis: calc(100% - 10px);
+            }
+        }
+
+        .pink-link {
+            color: darkmagenta;
+        }
+
+        .green-link {
+            color: green;
+        }
+
+        .blue-link {
+            color: blue;
+        }
+
+        .red-link {
+            color: navy;
+        }
+
+        .yellow-link {
+            color: crimson;
+        }
+
+        .link-container a:hover,
+        .link-container a:active {
+            color: paleturquoise;
+            background-color: transparent;
+            text-decoration: underline;
+            border-color: paleturquoise;
         }
