@@ -45,3 +45,30 @@ font-weight: bold;
 a.top {
 text-transform: uppercase;
 }
+
+
+.block {
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+#C4 {
+  background-color: lemonchiffon;
+}
+
+#C5 {
+  background-color: rgb(50, 132, 204);
+}
+
+#C6 {
+  background-color: red;
+}
+
+#C7 {
+  background-color: gold;
+}
+
+#C8 {
+  background-color: mediumaquamarine;
+}
