@@ -2,8 +2,11 @@
 h4 {
     background-color: lightblue; 
 }
-
 p {
+    background-color: lightblue; 
+}
+
+.block2 {
     background-color: lightgreen; 
 }
 
