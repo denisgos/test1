@@ -17,3 +17,12 @@
     background-color: orange; 
 }
 
+.block-header {
+    background-color: #f0f0f0; 
+    width: 200px; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    margin-bottom: 10px; 
+}
+
+
