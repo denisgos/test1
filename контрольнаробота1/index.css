@@ -1,28 +1,37 @@
 
 .block1 {
     background-color: lightblue;
-}
-
-
-.block2 {
-    background-color: lightgreen; 
-}
-
-.block3 {
-    background-color: red;
-}
-
-
-.block4 {
-    background-color: orange; 
-}
-
-.block-header {
-    background-color: #f0f0f0; 
     width: 200px; 
     padding: 10px; 
     border: 1px solid #ccc; 
     margin-bottom: 10px; 
 }
+
+
+.block2 {
+    background-color: lightgreen; 
+    width: 200px; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    margin-bottom: 10px; 
+}
+
+.block3 {
+    background-color: red;
+    width: 200px; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    margin-bottom: 10px; 
+}
+
+
+.block4 {
+    background-color: orange; 
+    width: 200px; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    margin-bottom: 10px; 
+}
+
 
 
