@@ -1,9 +1,19 @@
-.block h4 {
+.block1 h4 {
     background-color: darkblue; 
     color: white;    
 }
 
-.block p  {
+.block1 p  {
+    background-color: darkblue; 
+    color: white; 
+}
+
+.block2 h4 {
+    background-color: darkblue; 
+    color: white;    
+}
+
+.block2 p  {
     background-color: darkblue; 
     color: white; 
 }
