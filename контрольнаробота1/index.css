@@ -1,11 +1,9 @@
 .block h4 {
     background-color: darkblue; 
-    color: white; 
-    padding: 5px; 
+    color: white;    
 }
 
 .block p  {
     background-color: darkblue; 
     color: white; 
-    padding: 5px; 
 }
