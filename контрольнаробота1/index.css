@@ -75,24 +75,23 @@ p, ol, ul, table, th, td {
     }
 }
 
-/* Ширина екрану >992px та ≤1200px */
 @media screen and (min-width: 993px) and (max-width: 1200px) {
     .block1,
     .block2,
     .block3 {
-        width: 33.33%; /* Перші три блоки розміщуються поряд та мають однакову ширину */
+        width: 33.33%; 
     }
     .block4 {
-        width: calc(100% - (33.33% * 3)); /* Четвертий блок має ширину, що залишається від трьох перших блоків */
+        width: calc(100% - (33.33% * 3)); 
     }
 }
 
-/* Ширина екрану ≥ 1200px */
+
 @media screen and (min-width: 1201px) {
     .block1,
     .block2,
     .block3,
     .block4 {
-        width: 25%; /* Всі блоки розміщуються поряд та мають однакову ширину */
+        width: 25%; 
     }
 }
