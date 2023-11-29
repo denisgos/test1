@@ -1,24 +1,11 @@
-.block1 h4 {
-    background-color: darkblue; 
-    color: white;    
+
+.block1 {
+    background-color: lightblue;
 }
 
-.block1 p  {
-    background-color: darkblue; 
-    color: white; 
+
+.block2 {
+    background-color: lightgreen; 
 }
 
-.block2 h4 {
-    background-color: red; 
-    color: white;    
-}
 
-.block3 h4  {
-    background-color: greenyellow; 
-    color: white; 
-}
-
-.block4 h4  {
-    background-color: orange; 
-    color: white; 
-}
