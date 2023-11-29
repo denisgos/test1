@@ -33,5 +33,16 @@
     margin-bottom: 10px; 
 }
 
+.block1 h4,
+.block2 h4,
+.block3 h4,
+.block4 h4 {
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    background-color: #fff; 
+    padding: 5px; 
+}
+
 
 
