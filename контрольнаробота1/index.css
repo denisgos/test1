@@ -43,11 +43,14 @@
     background-color: #fff; 
     padding: 5px; 
     font-size: 120%;
+    font-family: 'Інша назва шрифту з Google Fonts', sans-serif; 
 }
-
 
 h1, h2, h3 {
     font-family: 'Назва шрифту з Google Fonts', sans-serif; 
 }
 
+p, ol, ul, table, th, td {
+    font-family: 'Ще одна назва шрифту з Google Fonts', sans-serif; 
+}
 
